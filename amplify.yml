@@ -4,6 +4,7 @@ frontend:
     preBuild:
       commands:
         - yarn install
+        - npx browserslist@latest --update-db
     build:
       commands:
         - yarn build
